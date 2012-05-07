@@ -1,1 +1,6 @@
-echo "Dummy install script"
+echo "Installing ~/.ssh_agent"
+curl -s https://raw.github.com/chrisroos/chromebook-ssh-agent/master/ssh_agent > ~/.ssh_agent 
+
+echo "Sourcing ~/.ssh_agent from ~/.bashrc"
+echo "source ~/.ssh_agent" >> ~/.bashrc
+
