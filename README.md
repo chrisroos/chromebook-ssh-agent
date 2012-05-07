@@ -1,4 +1,4 @@
 ## Installation
 
-    curl -L goo.gl/VSVbH | /bin/bash
+    curl -s -L goo.gl/VSVbH | /bin/bash
 
