@@ -1,4 +1,4 @@
 ## Installation
 
-    curl https://raw.github.com/chrisroos/chromebook-ssh-agent/master/install
+    curl -L goo.gl/VSVbH | /bin/bash
 
