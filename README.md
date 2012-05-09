@@ -8,5 +8,11 @@ I initially tried sourcing ~/.ssh_agent from ~/.profile (as suggested in [gist 7
 
     curl -s -L goo.gl/VSVbH | /bin/bash
 
-*NOTE* The installation script is pretty dumb.  Running it multiple times will result in multiple 'source ~/.ssh_agent' lines being added to ~/.bashrc.
+or
+
+    curl -s -L https://raw.github.com/chrisroos/chromebook-ssh-agent/master/install | /bin/bash
+
+*NOTE.* The goo.gl shortened version is handy on my chromebook because I can't paste anything into the crosh shell.
+
+*NOTE.* The installation script is pretty dumb.  Running it multiple times will result in multiple 'source ~/.ssh_agent' lines being added to ~/.bashrc.
 
